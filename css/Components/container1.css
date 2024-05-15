@@ -1,0 +1,6 @@
+.container1 {
+    width: 100%;
+    max-width: 1200px; /* Vous pouvez ajuster cette valeur selon la largeur de votre conteneur */
+    margin: 0 auto; /* Centrer le conteneur horizontalement */
+    padding: 20px; /* Ajouter de l'espace autour des conteneurs */
+}

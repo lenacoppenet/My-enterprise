@@ -1,0 +1,9 @@
+.banniere {
+    background-image: url('Images/photobanniere.png');
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+@import url("Components/banner.css");
+@import url("Components/footer.css");
+@import url("Components/container1.css");
+@import url("Components/container2.css");
+@import url("Component/photoaccueil.css");
+
+h1 {
+    color : #F263A6;
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    color : #F263A6; /*Couleur titre inscriptions, informations..*/
+}
+
+h4 {
+    color : #023059;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+p {
+    color: #023059;
+    text-align: justify;
+    padding: 20px;
+}
+
+p1 {
+    color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /*Couleur onglet en dessous titre..*/
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #023059;
+  background-color: #023059;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #F263A6;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+button {
+    color : #ffffff;
+}
+
+
+
+
+.contact-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-title {
+    color: #023059; /* Couleur du titre */
+    font-size: 24px; /* Taille du titre */
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.contact-list li {
+    margin-bottom: 10px; /* Espace entre chaque élément de contact */
+}
+
+.contact-list li strong {
+    color: #F263A6; /* Couleur de l'étiquette forte */
+}

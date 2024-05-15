@@ -1,0 +1,41 @@
+footer {
+    background-color: #023059;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer form {
+    margin-bottom: 20px;
+}
+
+footer input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+footer input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #F263A6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer input[type="submit"]:hover {
+    background-color: #F6D9D7;
+}
+
+body, h1, h2, p, ul, li, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Avenir', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
